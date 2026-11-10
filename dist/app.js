@@ -33,7 +33,7 @@ function render() {
   document.querySelectorAll('[data-booking]').forEach(el=>{el.href=safeURL(config.bookingUrl)||'#contacts';if(safeURL(config.bookingUrl)){el.target='_blank';el.rel='noopener';el.setAttribute('aria-label',copy[language].telegramBooking);}});
   const links=document.querySelector('#contact-links');links.replaceChildren();
   function addLink(label,href){const a=document.createElement('a');a.textContent=label+' ↗';a.href=href;if(href.startsWith('https:')){a.target='_blank';a.rel='noopener';}links.append(a);}
-  if(config.phone && /^\+?[\d\s()−-]{5,25}$/.test(config.phone))addLink(config.phone,'tel:'+(config.phoneE164||config.phone).replace(/[^+\d]/g,''));
+  if(config.phone && /^\+?[\d\s()−-]{5,25}$/.test(config.phone))addLink(config.phone,'#contacts');
   if(config.email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(config.email))addLink(config.email,'mailto:'+config.email);
   for(const [key,label] of [['telegram','Telegram'],['instagram','Instagram'],['bookingUrl',copy[language].telegramBooking]]){const url=safeURL(config[key]);if(url)addLink(label,url);}
   document.querySelector('.contact-empty').hidden=links.children.length>0;
