@@ -21,7 +21,7 @@ window.ACE_CONFIG = {
   "email": "",
   "telegram": "",
   "instagram": "",
-  "bookingUrl": "",
+  "bookingUrl": "https://t.me/ace_place_booking_test_bot",
   "phoneE164": "+821077351994",
   "pricing": {
     "weekdayPrice": 150000,

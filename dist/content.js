@@ -1,6 +1,7 @@
 // Text supplied by AcePlace. RU and KO are kept together for editing.
 window.ACE_CONTENT = {
   ru: {
+    telegramBooking: 'Забронировать в Telegram',
     heroTitle: 'МЕСТО ДЛЯ<br>ВАШИХ<br>ИСТОРИЙ',
     featureGuests: 'До 50 мест', featureGames: 'Караоке и PS5', featureFood: 'Своя еда и напитки',
     aboutText: 'AcePlace в Ансане — пять зон для праздников, встреч и отдыха. Соберите до 50 гостей за столами большого зала, устройте караоке, киновечер или игровую встречу. Детская, кухня и отдельная комната отдыха помогут каждому найти свой ритм.',
@@ -56,6 +57,7 @@ window.ACE_CONTENT = {
     nextPhoto:'Следующее фото',previousPhoto:'Предыдущее фото',heroAlt:'Интерьер AcePlace: столы и цветочные композиции'
   },
   ko: {
+    telegramBooking: 'Telegram으로 예약하기',
     heroTitle: '우리의 이야기가<br>시작되는 곳',
     featureGuests: '최대 50석', featureGames: '노래방과 PS5', featureFood: '음식·음료 반입 가능',
     aboutText: '안산의 AcePlace는 파티, 모임, 휴식을 위한 다섯 가지 공간입니다. 메인 홀은 최대 50석을 제공하며, 노래방·영화·게임을 함께 즐길 수 있습니다. 키즈룸, 주방, 별도 휴게실까지 각자의 방식으로 시간을 보내세요.',

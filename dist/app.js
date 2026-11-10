@@ -30,12 +30,12 @@ function render() {
   const frame=document.querySelector('.map iframe');
   frame.src='https://maps.google.com/maps?q='+encodeURIComponent(config.mapQuery||'경기 안산시 단원구 중앙대로 829')+'&t=&z=16&ie=UTF8&iwloc=&output=embed&hl='+language;
   frame.title=language==='ko'?'Ace Place 위치 지도':'Ace Place — карта расположения';
-  document.querySelectorAll('[data-booking]').forEach(el=>{el.href=safeURL(config.bookingUrl)||'#contacts';if(safeURL(config.bookingUrl)){el.target='_blank';el.rel='noopener';}});
+  document.querySelectorAll('[data-booking]').forEach(el=>{el.href=safeURL(config.bookingUrl)||'#contacts';if(safeURL(config.bookingUrl)){el.target='_blank';el.rel='noopener';el.setAttribute('aria-label',copy[language].telegramBooking);}});
   const links=document.querySelector('#contact-links');links.replaceChildren();
   function addLink(label,href){const a=document.createElement('a');a.textContent=label+' ↗';a.href=href;if(href.startsWith('https:')){a.target='_blank';a.rel='noopener';}links.append(a);}
   if(config.phone && /^\+?[\d\s()−-]{5,25}$/.test(config.phone))addLink(config.phone,'tel:'+(config.phoneE164||config.phone).replace(/[^+\d]/g,''));
   if(config.email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(config.email))addLink(config.email,'mailto:'+config.email);
-  for(const [key,label] of [['telegram','Telegram'],['instagram','Instagram'],['bookingUrl',copy[language].book]]){const url=safeURL(config[key]);if(url)addLink(label,url);}
+  for(const [key,label] of [['telegram','Telegram'],['instagram','Instagram'],['bookingUrl',copy[language].telegramBooking]]){const url=safeURL(config[key]);if(url)addLink(label,url);}
   document.querySelector('.contact-empty').hidden=links.children.length>0;
   document.querySelector('.close-lightbox').setAttribute('aria-label',language==='ko'?'사진 닫기':'Закрыть фото');
   document.querySelectorAll('[data-alt]').forEach(im=>im.alt=copy[language][im.dataset.alt]);
