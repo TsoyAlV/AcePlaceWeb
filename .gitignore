@@ -1,3 +1,11 @@
 # Local delivery archives and design previews are not Site source.
 /archives/
 /output/
+
+# Credentials and local runtime files.
+.env
+.env.*
+!.env.example
+secrets/
+node_modules/
+*.log
