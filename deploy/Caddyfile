@@ -1,0 +1,6 @@
+:80 {
+    root * /srv
+    encode zstd gzip
+    header /config.js Cache-Control "no-cache"
+    file_server
+}
