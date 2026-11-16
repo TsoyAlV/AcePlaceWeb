@@ -19,7 +19,7 @@ window.ACE_CONFIG = {
   },
   "phone": "010-7735-1994",
   "email": "",
-  "telegram": "",
+  "telegram": "https://t.me/AcePlaceParty",
   "instagram": "",
   "bookingUrl": "https://t.me/ace_place_booking_test_bot",
   "phoneE164": "+821077351994",

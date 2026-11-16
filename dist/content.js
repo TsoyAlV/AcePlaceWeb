@@ -1,6 +1,7 @@
 // Text supplied by AcePlace. RU and KO are kept together for editing.
 window.ACE_CONTENT = {
   ru: {
+    telegramChannel: 'Наш Telegram-канал', mobileBooking: 'Забронировать',
     telegramBooking: 'Забронировать в Telegram',
     heroTitle: 'МЕСТО ДЛЯ<br>ВАШИХ<br>ИСТОРИЙ',
     featureGuests: 'До 50 мест', featureGames: 'Караоке и PS5', featureFood: 'Своя еда и напитки',
@@ -54,6 +55,7 @@ window.ACE_CONTENT = {
     nextPhoto:'Следующее фото',previousPhoto:'Предыдущее фото',heroAlt:'Интерьер AcePlace: столы и цветочные композиции'
   },
   ko: {
+    telegramChannel: 'Telegram 채널', mobileBooking: '예약하기',
     telegramBooking: 'Telegram으로 예약하기',
     heroTitle: '우리의 이야기가<br>시작되는 곳',
     featureGuests: '최대 50석', featureGames: '노래방과 PS5', featureFood: '음식·음료 반입 가능',
