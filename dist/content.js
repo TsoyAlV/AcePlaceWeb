@@ -49,8 +49,8 @@ window.ACE_CONTENT = {
     rule4Title: 'Перед уходом',rule4Text: 'Выключите кондиционеры, все обогреватели и освещение во всех комнатах. Убедитесь, что все электроприборы выключены.',
     rulesThanks: 'Спасибо за бережное отношение к AcePlace!',
     findUs: 'МЫ В АНСАНЕ · 24/7',bookingNote: 'Бронирование: Виктор · 010-7735-1994. Подготовьте дату, время, формат события и примерное количество гостей.',contactPerson: 'Виктор — бронирование и сотрудничество',
-    galleryHint: 'Все 8 фотографий пространства.<br>Нажмите на фото, чтобы увеличить.',
-    galleryHall:'Большой зал',galleryRoom:'Столы и интерьер',galleryLounge:'Караоке и кино',galleryCinema:'Домашний кинотеатр',galleryKids:'Детская и игровая',galleryKitchen:'Кухонная зона',galleryPS5:'PlayStation 5 и игры',galleryFacade:'Здание The Luce — вход',
+    galleryHint: 'Все 9 фотографий пространства.<br>Нажмите на фото, чтобы увеличить.',
+    galleryHall:'Большой зал',galleryRoom:'Столы и интерьер',galleryLounge:'Караоке и кино',galleryCinema:'Домашний кинотеатр',galleryKids:'Детская и игровая',galleryKitchen:'Кухонная зона',galleryPS5:'PlayStation 5 и игры',galleryFireplace:'Каминный уголок',galleryFacade:'Здание The Luce — вход',
     nextPhoto:'Следующее фото',previousPhoto:'Предыдущее фото',heroAlt:'Интерьер AcePlace: столы и цветочные композиции'
   },
   ko: {
@@ -83,6 +83,6 @@ window.ACE_CONTENT = {
     directionsTitle:'쉽게 찾고,<br><em>편하게 오세요.</em>',directionsLabel:'주소와 주차',entranceTitle:'AcePlace 입구',entranceText:'경기 안산시 단원구 중앙대로 829, The Luce 웨딩홀 건물 지하 1층(B1)입니다. 엘리베이터에서 내린 후 오른쪽으로 오세요.',parkingTitle:'지하 B2·B3 주차장',parkingText:'같은 건물 지하 2층과 3층에 있습니다. 관리사무실 운영 시간인 오후 5시(17:00)까지 차량을 등록해 주세요.',parkingRate:'차량 등록 후 최초 4시간 무료이며, 이후 30분당 600원입니다.',sundayParking:'일요일은 주차가 전면 무료이지만 차량 등록은 필수입니다. 예식으로 인해 주차 공간이 부족할 수 있습니다.',
     rulesLabel:'이용 수칙',rulesTitle:'즐거운 시간,<br><em>함께 아끼는 공간.</em>',rule1Title:'쓰레기 분리배출',rule1Text:'재활용, 일반 쓰레기, 음식물 쓰레기로 나누어 모아 주세요. 직접 밖으로 버릴 필요는 없습니다. 처리는 저희가 하겠습니다.',rule2Title:'흡연은 건물 밖에서만',rule2Text:'건물 내부는 엄격히 금연입니다. 지정된 야외 흡연 구역을 이용해 주세요. 위치는 관리자에게 문의해 주세요.',rule3Title:'시설과 장비 보호',rule3Text:'관리자의 허락 없이 노래방 기기, 냉난방기, 히터 등 설치 장비를 이동하거나 전원을 분리하지 마세요.',rule4Title:'퇴실 전 확인',rule4Text:'모든 방의 냉난방기, 히터, 조명을 끄고 모든 전기기기의 전원이 꺼졌는지 확인해 주세요.',rulesThanks:'AcePlace를 소중히 이용해 주셔서 감사합니다!',
     findUs:'안산에서 만나요 · 24시간 운영',bookingNote:'예약 및 협업 문의: 빅토르 · 010-7735-1994. 희망 날짜, 시간, 행사 형태와 예상 인원을 알려 주세요.',contactPerson:'빅토르 — 예약 및 협업 문의',
-    galleryHint:'공간 사진 8장을 모두 만나보세요.<br>사진을 누르면 크게 볼 수 있습니다.',galleryHall:'메인 홀',galleryRoom:'테이블과 인테리어',galleryLounge:'노래방과 영화 공간',galleryCinema:'홈 시네마',galleryKids:'키즈룸과 놀이 공간',galleryKitchen:'주방',galleryPS5:'PlayStation 5와 게임',galleryFacade:'The Luce 건물 입구',nextPhoto:'다음 사진',previousPhoto:'이전 사진',heroAlt:'테이블과 꽃 장식이 있는 AcePlace 내부'
+    galleryHint:'공간 사진 9장을 모두 만나보세요.<br>사진을 누르면 크게 볼 수 있습니다.',galleryHall:'메인 홀',galleryRoom:'테이블과 인테리어',galleryLounge:'노래방과 영화 공간',galleryCinema:'홈 시네마',galleryKids:'키즈룸과 놀이 공간',galleryKitchen:'주방',galleryPS5:'PlayStation 5와 게임',galleryFireplace:'벽난로 코너',galleryFacade:'The Luce 건물 입구',nextPhoto:'다음 사진',previousPhoto:'이전 사진',heroAlt:'테이블과 꽃 장식이 있는 AcePlace 내부'
   }
 };
