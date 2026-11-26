@@ -8,6 +8,8 @@ const copy = {
   }
 };
 copy.en={};
+const privacyLabels={ru:'Политика конфиденциальности',ko:'개인정보 처리방침',en:'Privacy policy'};
+for (const lang of ['ru','ko','en']) copy[lang].privacyPolicy=privacyLabels[lang];
 for (const lang of ['ru','ko','en']) Object.assign(copy[lang], window.ACE_CONTENT?.[lang] || {});
 const config = window.ACE_CONFIG || {};
 let language = 'ru';

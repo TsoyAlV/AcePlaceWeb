@@ -1,0 +1,7 @@
+# Import this file from the existing Caddyfile; keep its other site blocks.
+aceplace.kr, www.aceplace.kr {
+    root * /srv
+    encode zstd gzip
+    header /config.js Cache-Control "no-cache"
+    file_server
+}

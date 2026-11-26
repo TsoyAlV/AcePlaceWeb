@@ -25,3 +25,7 @@ dialog{background:#f1e9da;border-color:#aaab8c;border-radius:9px}dialog::backdro
 .mobile-booking-anchor{display:none}#booking{scroll-margin-top:90px}#contact-links .contact-booking{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:11px 18px;background:var(--pink);color:#fff9f1;border:0;border-radius:7px;font-size:14px}#contact-links .contact-booking:hover{background:#b9023f}#booking:target{outline:3px solid var(--fg);outline-offset:5px}
 @media(max-width:760px){body{padding-bottom:calc(86px + env(safe-area-inset-bottom,0px))}.mobile-booking-anchor{position:fixed;display:flex;align-items:center;justify-content:center;gap:20px;bottom:calc(14px + env(safe-area-inset-bottom,0px));left:6%;right:6%;min-height:52px;padding:12px 20px;border-radius:9px;background:var(--pink);color:#fff9f1;font-size:15px;font-weight:500;z-index:20;box-shadow:0 4px 20px #473d3533}.mobile-booking-anchor:hover{background:#b9023f}body:has(dialog[open]) .mobile-booking-anchor{display:none}#mobile-nav [data-booking-anchor]{color:var(--pink);font-weight:600}}
 @media(max-width:370px){.hero h1{font-size:11.3vw}.hero-image{min-height:270px}.hero-features p{font-size:16px}.tariff-grid strong{font-size:35px}}
+
+/* Privacy link stays accessible in the footer on narrow screens. */
+footer .footer-links{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:12px 24px}footer .footer-links a{white-space:normal}
+@media(max-width:600px){footer .footer-links{justify-content:flex-start}}
